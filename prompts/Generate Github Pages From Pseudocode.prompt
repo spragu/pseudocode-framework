@@ -1,0 +1,160 @@
+Chris S (spragu)
+As a pseudocode interpreter and translator, your job is to understand what the user wants and provide code to meet their needs. Assume the user is building an app/website/prompt from scratch and create necessary items such as Implementations, Classes, Components, Objects, and Files. Fill them with generic content related to the user's theme. If you see a "requirement" section, make sure to meet those requirements. If you can't, ask the user for clarification. If you see "#Filler" and "#EndFiller" tags, replace the text between them with generated filler content. Don't explain the code unless the user asks, and generate code for any places where the user needs to provide their own implementation.
+
+Hey, im making a github repo to show off how chat gpt can convert user made pseudocode into outputs in their chosen language/format. I want to make a github pages site to document this pseudocode framework and document improvements, etc.
+Can you tell me how I would implement the code you send me? Thanks
+
+Intentions:
+	Show users how to quickly implement ideas from psudocode
+	Show users examples of pseudocode prompts and their outputs
+	Show users value of documenting ideas as pseudocode
+
+Requirements:
+	Pages are well written, content should stay on the topic of the overall intention of the repo.
+	Pages are user friendly and made in a documentation format
+
+
+
+OpenAI ChatGPT (GPT-4)
+
+To create a GitHub Pages site for your project, you can follow these steps:
+
+Create a new GitHub repository (if you haven't already) for your pseudocode framework.
+In the repository, create a new branch named "gh-pages".
+On the "gh-pages" branch, create the necessary files and folders to structure your documentation.
+Here's a suggested structure for your documentation:
+
+index.md (Homepage)
+getting-started.md (Quick start guide)
+examples.md (Examples of pseudocode and their outputs)
+documentation.md (Detailed documentation)
+Now, let's create the content for each page:
+
+index.md
+sql
+Copy code
+# Welcome to Pseudocode Framework!
+
+This framework helps you quickly implement ideas from pseudocode and convert them into outputs in your chosen language or format.
+
+## Intentions
+- Show users how to quickly implement ideas from pseudocode
+- Show users examples of pseudocode prompts and their outputs
+- Show users the value of documenting ideas as pseudocode
+
+## Get Started
+- [Quick Start Guide](getting-started.md)
+- [Examples](examples.md)
+- [Detailed Documentation](documentation.md)
+getting-started.md
+shell
+Copy code
+# Getting Started
+
+This guide will help you quickly set up and start using the Pseudocode Framework.
+
+## Step 1: Install the Pseudocode Framework
+
+[Provide installation instructions here]
+
+## Step 2: Create a Pseudocode File
+
+Create a new file with the extension `.psd` and write your pseudocode inside.
+
+## Step 3: Convert Pseudocode to Code
+
+Use the Pseudocode Framework to convert your `.psd` file into your chosen language or format.
+
+[Provide conversion instructions here]
+
+## Step 4: Run Your Code
+
+After converting your pseudocode, run your code in your preferred development environment.
+
+## Next Steps
+
+- [Examples](examples.md)
+- [Detailed Documentation](documentation.md)
+examples.md
+shell
+Copy code
+# Examples
+
+Here you'll find examples of pseudocode prompts and their corresponding outputs in various languages or formats.
+
+## Example 1: [Description of example 1]
+
+### Pseudocode
+
+[Insert pseudocode for example 1 here]
+
+shell
+Copy code
+
+### Output
+
+[Insert output for example 1 here]
+
+shell
+Copy code
+
+## Example 2: [Description of example 2]
+
+### Pseudocode
+
+[Insert pseudocode for example 2 here]
+
+shell
+Copy code
+
+### Output
+
+[Insert output for example 2 here]
+
+scss
+Copy code
+
+[Add more examples as needed]
+
+## Next Steps
+- [Detailed Documentation](documentation.md)
+documentation.md
+csharp
+Copy code
+# Documentation
+
+This page contains detailed documentation for the Pseudocode Framework.
+
+## Table of Contents
+- [Section 1: Introduction](#section-1-introduction)
+- [Section 2: Writing Pseudocode](#section-2-writing-pseudocode)
+- [Section 3: Converting Pseudocode](#section-3-converting-pseudocode)
+- [Section 4: Customizing the Framework](#section-4-customizing-the-framework)
+
+## Section 1: Introduction
+
+[Provide an introduction to your framework and its purpose]
+
+## Section 2: Writing Pseudocode
+
+[Provide guidelines on how to write pseudocode that's compatible with your framework]
+
+## Section 3: Converting Pseudocode
+
+[Explain how the conversion process works and how users can convert their pseudocode]
+
+## Section 4: Customizing the Framework
+
+[Explain how users can customize the framework to suit their needs]
+After creating these files, commit and push your changes to the "gh-pages" branch. Your GitHub Pages site will be automatically created and available at https://<username>.github.io/<repository-name>/, where <username> is your GitHub username and <repository-name> is the name of your repository.
+
+To summarize, you'll need to:
+
+Create a new GitHub repository for your pseudocode framework.
+Create a "gh-pages" branch in the repository.
+Create the necessary files and folders for your documentation (index.md, getting-started.md, examples.md, and documentation.md).
+Fill in the content for each file as suggested above.
+Commit and push your changes to the "gh-pages" branch.
+Your GitHub Pages site will then be automatically generated and available at https://<username>.github.io/<repository-name>/. Users can visit your site to learn about your pseudocode framework, see examples, and read detailed documentation.
+
+For a more advanced setup or customization, you can use Jekyll, a static site generator that's supported by GitHub Pages. This will allow you to create a more professional-looking site with additional features like navigation menus and custom themes. Check out the Jekyll documentation and the GitHub Pages Jekyll guide for more information.
