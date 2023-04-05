@@ -6,3 +6,4 @@ Here you'll find examples of pseudocode prompts and their corresponding outputs 
 
 ### Pseudocode
 
+- [Example 2](examples/2/index.html)
